@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aws_interview_code;
+
 
 /**
  *
@@ -21,7 +21,7 @@ public class AWS_Interview_Code {
         for (int i=0;i<args.length;i++){
             switch(i){
                 case 0:
-                   // syso(getLongestSubstringOfLikeChars(args[i]),"");
+                    syso(getLongestSubstringOfLikeChars(args[i]),"");
                     break;
                 case 1:
                     syso(getLongestSubstringOfLikeChars(args[i]),"a");
